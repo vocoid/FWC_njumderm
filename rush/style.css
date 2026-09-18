@@ -1,0 +1,130 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #f6f9fb;
+	color: #596877;
+	font-family: "Zen Kaku Gothic New", sans-serif;
+	font-size: 15px;
+}
+
+/* navbar */
+header {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	background: #f6f9fb;
+	border-bottom: 1px solid #dce2e9;
+}
+
+header a {
+	color: #596877;
+	text-decoration: none;
+}
+
+header a:hover {
+	color: #2b3740;
+}
+
+header button {
+	color: #596877;
+}
+
+header button:hover {
+	color: #2b3740;
+}
+
+.icon {
+	height: 28px;
+	width: auto;
+}
+
+/* body */
+main h1,
+main h2 {
+	font-family: "Shippori Mincho", serif;
+	color: #2b3740;
+}
+
+main h1 {
+	font-size: 30px;
+}
+
+main h2 {
+	font-size: 20px;
+	margin-bottom: 1rem;
+}
+
+main h3 {
+	margin-top: 2rem;
+	margin-bottom: 0.75rem;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #7f95a3;
+}
+
+main strong {
+	font-weight: 500;
+	color: #2b3740;
+}
+
+.section {
+	margin-top: 3rem;
+	padding-top: 2rem;
+	border-top: 1px solid #dce2e9;
+	scroll-margin-top: 4.5rem;
+}
+
+.gray-text {
+	color: #7f95a3;
+}
+
+main a {
+	color: #2b3740;
+	text-decoration: underline;
+}
+
+main a:hover img {
+	opacity: 0.9;
+}
+
+.avatar {
+	width: 96px;
+	height: 96px;
+	object-fit: cover;
+	border: 1px solid #dce2e9;
+	border-radius: 50%;
+}
+
+/* school logo */
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+	margin-right: 8px;
+	object-fit: contain;
+}
+
+/* image card */
+.card {
+	width: 100%;
+	border: 1px solid #dce2e9;
+	border-radius: 4px;
+}
+
+@media (min-width: 640px) {
+	.avatar {
+		width: 128px;
+		height: 128px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}

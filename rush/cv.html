@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>vocoid's portfolio</title>
+	
+	<script src="https://cdn.tailwindcss.com"></script>
+
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Zen+Kaku+Gothic+New" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- navbar -->
+	<header>
+		<nav class="mx-auto flex max-w-2xl items-center justify-between px-6 py-3">
+			<a href="#top"><img class="icon" src="assets/logo.png"></a>
+
+			<ul class="hidden gap-6 text-sm sm:flex">
+				<li><a href="#about">About</a></li>
+				<li><a href="#showcase">Showcase</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+
+			<button id="menu-btn" class="text-sm sm:hidden">Menu</button>
+		</nav>
+	</header>
+
+	<main id="top" class="mx-auto max-w-2xl px-6 py-14 leading-relaxed">
+
+		<!-- intro -->
+		<div class="flex items-center gap-5">
+			<img class="avatar" src="assets/avatar.jpg">
+			<div>
+				<h1>Natakorn Jumderm</h1>
+				<p class="gray-text">Liberal Arts Undergraduate - English Major</p>
+			</div>
+		</div>
+
+		<!-- about -->
+		<section id="about" class="section">
+			<h2>About me</h2>
+
+			<p>
+				Name's Natakorn Jumderm, also known as <strong>vocoid</strong> on the internet. As of right now, I'm a second-year student at King Mongkut's Institute of Technology Ladkrabang.
+			</p>
+			<p class="mt-4">
+				In my free time, I've picked up hobbies like playing rhythm games, doing graphic designs, and coding.
+			</p>
+
+			<h3>Education</h3>
+			<ul class="list-disc space-y-3 pl-5">
+				<li>
+					<img class="logo" src="assets/phiman.png">
+					<strong>Phiman Pittayasan School</strong> (2023 - 2025)
+				</li>
+				<li>
+					<img class="logo" src="assets/kmitl-logo.svg">
+					<strong>King Mongkut's Institute of Technology Ladkrabang</strong> (2025 - now)
+				</li>
+			</ul>
+		</section>
+
+		<!-- showcase -->
+		<section id="showcase" class="section">
+			<h2>Showcase</h2>
+
+			<h3>Coding</h3>
+			<ul class="list-disc space-y-2 pl-5">
+				<li><strong>Java</strong> - well-versed with the concepts of OOP. has intermediate experience with Spring Boot framework and Spigot API.</li>
+				<li><strong>JavaScript</strong> - had a mentor guide me thru the whole process, thank you <a href="https://github.com/Swofty-Developments/">ProperPoli777</a></li>
+				<li><strong>Python</strong> - picked up while learning to work with a custom osu! server software, <a href="https://github.com/osuAkatsuki/bancho.py">bancho.py</a></li>
+			</ul>
+
+			<h3>Certificates</h3>
+
+			<figure>
+				<img class="card" src="assets/cert/cert2.jpg" alt="1">
+				<figcaption class="mt-2 text-sm">
+					Completed "Develop Minecraft Plugins (Java)" on Udemy by Stephen King on February 21st, 2023.
+				</figcaption>
+			</figure>
+
+			<figure class="mt-7">
+				<img class="card" src="assets/cert/toeic.jpg" alt="2">
+				<figcaption class="mt-2 text-sm">
+					Achieved TOEIC score of 870 with <b>470</b> on listening, and <b>430</b> on reading back in September, 2024.
+				</figcaption>
+			</figure>
+
+			<figure class="mt-7">
+				<img class="card" src="assets/cert/cert1.png" alt="3">
+				<figcaption class="mt-2 text-sm">
+					Participated in the ARSA ENIGMA Blockchain workshop on July 21st, 2026.
+				</figcaption>
+			</figure>
+
+			<h3>Graphic Design</h3>
+			<p>
+				Alongside development I volunteered as a GFX artist in several osu!mania tournaments. My work spans over key art and banners, logos, forum design, stream overlays and layout, and social media graphics.
+			</p>
+			<p class="mt-3 text-sm">
+				Click on the images below to view individual tournament thread on osu!
+			</p>
+
+			<figure class="mt-6">
+				<a href="https://osu.ppy.sh/community/forums/topics/1826278">
+					<img
+						class="card" 
+						src="https://i.ppy.sh/bff272c0163d553f1fc19e9c0f83ea9bc24449ac/68747470733a2f2f696d6775722d617263686976652e7070792e73682f646973636f72642f313033303730303531343330353930383733362d313135363337373631333532333233303735302d62616e6e65722e706e673f65783d36353134633031332669733d363531333665393326686d3d6539373663353138666131663034356633323032386634663531323461373130333765326636316332386365646138363565643130663731323938623836343026" 
+						alt="LMM" 
+					>
+				</a>
+				<figcaption class="mt-2 text-sm">
+					<strong>Loved Map Mayhem</strong> - designed the forum thread and overall banner for the tournament
+				</figcaption>
+			</figure>
+
+			<figure class="mt-7">
+				<a href="https://osu.ppy.sh/community/forums/topics/2111123">
+					<img class="card" src="https://i.ppy.sh/be47412d2d84302d927c842f44ce9bd2a0926184/68747470733a2f2f74776f73686f742e732d756c2e65752f56787876787a3048" alt="TSC2">
+				</a>
+				<figcaption class="mt-2 text-sm">
+					<strong>Two-Shot Cup 2</strong> - coordinated the design team, worked on the tournament gameplay skinning
+				</figcaption>
+			</figure>
+
+			<figure class="mt-7">
+				<a href="https://osu.ppy.sh/community/forums/topics/2202061">
+					<img class="card" src="https://i.ppy.sh/f5a68694fabe674b898453ce6212adbf71edb4eb/68747470733a2f2f7a6e6f772e732d756c2e65752f795a754c49387371" alt="JAST">
+				</a>
+				<figcaption class="mt-2 text-sm">
+					<strong>Just A Summer Tournament</strong> - coordinated design team and contributed to forum graphic design
+				</figcaption>
+			</figure>
+		</section>
+
+		<!-- projects -->
+		<section id="projects" class="section">
+			<h2>Projects</h2>
+			<p>Most of my works are private, though here are some of my projects which I've worked on.</p>
+
+			<ul class="list-disc space-y-5 pl-5">
+				<li>
+					<strong>cope</strong> - a custom placeholders plugin that uses a MongoDB database to store placeholders, original purpose is to be used with <a href="https://www.spigotmc.org/resources/placeholderapi.6245/">PlaceholderAPI</a> to display player statistics
+					<a href="https://github.com/kayalust/cope">
+						<img class="card mt-3" src="assets/github/1.png">
+					</a>
+				</li>
+				<li>
+					<strong>StrikeWinstreaks</strong> - a <a href="https://builtbybit.com/resources/strikepractice-practice-pvp-plugin.74743/">StrikePractice</a> addon that tracks a player's win streak for each kit
+					<a href="https://github.com/kayalust/StrikeWinstreaks">
+						<img class="card mt-3" src="assets/github/2.png">
+					</a>
+				</li>
+			</ul>
+
+			<em>*More works can be provided upon request</em>
+		</section>
+
+		<!-- contact -->
+		<section id="contact" class="section">
+			<h2>Contact</h2>
+			<p>Feel free to reach me via any of these:</p>
+			<p class="mt-3">
+				GitHub: <a href="https://github.com/vocoid" target="_blank" rel="noopener">github.com/vocoid</a><br>
+				Email: <a href="mailto:kayalust777@gmail.com">kayalust777@gmail.com</a>
+			</p>
+		</section>
+
+		<!-- footer -->
+		<footer class="section text-sm">
+			© 2026 vocoid.xyz - Rush Project submission for 42Bangkok
+		</footer>
+	</main>
+</body>
+</html>
